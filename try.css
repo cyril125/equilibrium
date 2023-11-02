@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.component{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.component img{
+    border-radius: 20px;
+}
+
+.component h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:  hsl(0, 0%, 100%);
+}
+
+.component p{
+    color: hsl(215, 51%, 70%);
+    padding-bottom: 20px;
+}
+
+.component .remarks{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.component .remarks .img1{
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+
+.component .remarks .img1 h4{
+    padding-left: 10px;
+}
+
+.component .remarks .img2{
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    margin-left: 80px;
+}
+
+.component hr{
+    color: hsl(215, 32%, 27%);
+}
+
+.component .footer{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.component .footer img{
+    height: 40px;
+    width: 40px;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.component .footer h3{
+    color:  hsl(215, 51%, 70%);
+    padding-left: 10px;
+}
+
+.component .footer span{
+    color: hsl(0, 0%, 100%);
+}
